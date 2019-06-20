@@ -1,0 +1,86 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('./bck.jpg');
+  background-size:100% 50%;
+  background-repeat: no-repeat;
+}
+
+a{
+  padding:25px;
+  color: aliceblue;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+#social{
+float: right;  
+}
+
+#header{
+  margin:50px;
+}
+
+#aboutMe{
+  color:black;
+  padding:600px 50px;
+  margin-top: 6%;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  border-radius: 50%;
+  border-collapse: separate;
+}
+
+.fa:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  transition: 0.5s;
+  border-collapse: separate;
+  text-decoration: none !important;
+  background-color: aliceblue;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github{
+  background:grey;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
