@@ -28,8 +28,8 @@ float: right;
 
 #aboutMe{
   color:black;
-  padding:600px 50px;
-  margin-top: 6%;
+  padding:550px 50px;
+  margin-top: 15%;
 }
 
 
@@ -48,7 +48,7 @@ float: right;
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
-  transition: 0.5s;
+  transition: 0.3s;
   border-collapse: separate;
   text-decoration: none !important;
   background-color: aliceblue;
@@ -74,10 +74,6 @@ float: right;
   color: white;
 }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
 
 .fa-instagram {
   background: #125688;
