@@ -31,10 +31,9 @@ body{
     display: inline-block;
   }
   a:hover, a:active {
-    transition-duration: 0.5s;
-    background-color:grey;
+    transition-duration: 0.3s;
     font-size: 23px;
-    color: black !important;
+    color:white !important;
     text-decoration: none;
   }
   a:focus{
