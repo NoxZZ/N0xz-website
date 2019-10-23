@@ -1,0 +1,42 @@
+body{
+    background-color: black !important;
+  }
+
+  h2{
+    color:whitesmoke;
+    padding-top:50px ;
+    padding-left: 50px;
+  }
+
+  #aboutMe{
+  
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  ul{
+    padding-top:50px ;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:grey;
+    font-size: 21px;
+  }
+  a:link ,a:visited{
+    text-decoration: none !important;
+    margin: 15px;
+    background-color:black;
+    color: white;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    transition-duration: 0.5s;
+    background-color:grey;
+    font-size: 23px;
+    color: black !important;
+    text-decoration: none;
+  }
+  a:focus{
+    outline: none;
+  }
