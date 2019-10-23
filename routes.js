@@ -1,14 +1,19 @@
 var express = require('express');
 var route = express.Router();
 
+
 //GET request for homepage...
 route.get('/',(req,res) => {
-    res.redirect('/dashboard');
+    res.redirect('/home');
 });
 
-//GET request for dashboard...
-route.get('/dashboard', (req,res) =>{
+//GET request for home...
+route.get('/home', (req,res) =>{
     res.render('index');
+});
+
+route.get('/info',(req,res) => {
+    res.render('info');
 });
 
 module.exports = route;

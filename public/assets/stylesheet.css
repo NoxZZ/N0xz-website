@@ -1,35 +1,61 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  background-image: url('./bck.jpg');
-  background-size:100% 50%;
-  background-repeat: no-repeat;
+  background-color: black !important;
+  
 }
 
 a{
-  padding:25px;
   color: aliceblue;
 }
 
 a:hover{
   text-decoration: none !important;
+  outline: none;
+}
+a:focus{
+  outline: none;
 }
 
 #social{
-float: right;  
+  float: none;  
+  padding-left: 550px;
+  padding-top: 160px; 
 }
 
-#header{
-  margin:50px;
+#tag{
+  margin: 20px;
+}
+
+.name{
+  padding-top: 80px;
+  padding-left: 80px;
+}
+#nox{
+  border: 20px;
+  padding-left:585px ;
+  margin-bottom: 125px;
+  font-size:70px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+h4{
+  font-family: 'Courier New', Courier, monospace;
+  color: grey;
 }
 
 #aboutMe{
-  color:black;
+  color:white !important;
   padding:550px 50px;
   margin-top: 15%;
+  
 }
 
 
