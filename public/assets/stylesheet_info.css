@@ -8,9 +8,14 @@ body{
     padding-left: 50px;
   }
 
-  #aboutMe{
+  #Projects{
   
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  #AboutMe{
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
   }
 
   ul{
@@ -38,4 +43,19 @@ body{
   }
   a:focus{
     outline: none;
+  }
+
+  h3{
+    color:whitesmoke;
+    padding-top:100px ;
+    padding-left: 90px;
+    padding-right: 50px;
+  }
+  p{
+    padding-top:50px ;
+    padding-left: 80px;
+    padding-right:50px ;
+    font-family: 'Courier New', Courier, monospace;
+    color:grey;
+    font-size: 21px;
   }
